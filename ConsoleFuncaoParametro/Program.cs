@@ -27,26 +27,27 @@ namespace ConsoleFuncaoParametro
 
         static void operacao(double v1, double v2, string ope)
         {
+            double resultado;
             switch (ope)
             {
                 case "a":
-                    double resultado = v1 + v2;
+                    resultado = v1 + v2;
                     Console.WriteLine("O resultado é " + resultado);
                     break;
 
                 case "s":
-                    double resultados = v1 - v2;
-                    Console.WriteLine("O resultado é " + resultados);
+                    resultado = v1 - v2;
+                    Console.WriteLine("O resultado é " + resultado);
                     break;
 
                 case "m":
-                    double resultadam = v1 * v2;
-                    Console.WriteLine("O resultado é " + resultadam);
+                    resultado = v1 * v2;
+                    Console.WriteLine("O resultado é " + resultado);
                     break;
 
                 case "d":
-                    double resultadod = v1/v2;
-                    Console.WriteLine("O resultado é " + resultadod);
+                    resultado = v1/v2;
+                    Console.WriteLine("O resultado é " + resultado);
                     break;
             }
             Console.ReadKey();
